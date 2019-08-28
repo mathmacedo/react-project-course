@@ -1,26 +1,46 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { Component } from "react";
 import "./App.css";
+import UserOutput from "./components/UserOutput/UserOutput";
+import UserInput from "./components/UserInput/UserInput";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			name: "Matheus"
+		};
+	}
+
+	manipulateState = evnt => {
+		this.setState({
+			name: evnt.target.value
+		});
+	};
+
+	render() {
+		return (
+			<div
+				style={{
+					margin: "10px",
+					padding: "10px",
+					border: "1px solid #ccc"
+				}}
+			>
+				<UserOutput
+					paragraph={"Hello"}
+					paragraph2={"Welcome"}
+					name={this.state.name}
+				/>
+				<UserOutput />
+
+				<UserInput
+					handlerEvent={this.manipulateState}
+					style={{ padding: "10px" }}
+				/>
+			</div>
+		);
+	}
 }
 
 export default App;

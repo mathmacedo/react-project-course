@@ -8,7 +8,13 @@ class UserOutput extends Component {
 	}
 
 	render() {
-		return <div></div>;
+		return (
+			<div>
+				<p>{this.props.paragraph}</p>
+				<p>{this.props.paragraph2}</p>
+				<p>{this.props.name}</p>
+			</div>
+		);
 	}
 }
 

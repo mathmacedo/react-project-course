@@ -8,7 +8,14 @@ class UserInput extends Component {
 	}
 
 	render() {
-		return <div></div>;
+		return (
+			<div>
+				<input
+					onChange={this.props.handlerEvent}
+					style={this.props.style}
+				/>
+			</div>
+		);
 	}
 }
 
