@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-project-course/static/css/main.4de2b594.chunk.css",
+    "main.js": "/react-project-course/static/js/main.e38c233a.chunk.js",
+    "main.js.map": "/react-project-course/static/js/main.e38c233a.chunk.js.map",
+    "runtime~main.js": "/react-project-course/static/js/runtime~main.d261be9a.js",
+    "runtime~main.js.map": "/react-project-course/static/js/runtime~main.d261be9a.js.map",
+    "static/js/2.032a2494.chunk.js": "/react-project-course/static/js/2.032a2494.chunk.js",
+    "static/js/2.032a2494.chunk.js.map": "/react-project-course/static/js/2.032a2494.chunk.js.map",
+    "index.html": "/react-project-course/index.html",
+    "precache-manifest.4bbfd40e8a29159e1a910b1d57c48637.js": "/react-project-course/precache-manifest.4bbfd40e8a29159e1a910b1d57c48637.js",
+    "service-worker.js": "/react-project-course/service-worker.js",
+    "static/css/main.4de2b594.chunk.css.map": "/react-project-course/static/css/main.4de2b594.chunk.css.map"
+  }
+}
